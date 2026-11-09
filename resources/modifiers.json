@@ -1,0 +1,82 @@
+{
+ "modifiers": [
+  {
+   "id": "fragile",
+   "name": "Fragile Shipment",
+   "desc": "Contracted furniture is more fragile than the paperwork admits.",
+   "value_mult": 1.25,
+   "time_mult": 1.0,
+   "effects": {
+    "fragility_mult": 1.45
+   }
+  },
+  {
+   "id": "night_shift",
+   "name": "Night Shift",
+   "desc": "Lighting has been reduced to save on the electricity bill.",
+   "value_mult": 1.2,
+   "time_mult": 1.0,
+   "effects": {
+    "dark": 1
+   }
+  },
+  {
+   "id": "rush",
+   "name": "Rush Order",
+   "desc": "The customer is arriving early. So is the deadline.",
+   "value_mult": 1.3,
+   "time_mult": 0.78,
+   "effects": {}
+  },
+  {
+   "id": "noisy",
+   "name": "Noisy Neighbours",
+   "desc": "Loud handling attracts louder attention.",
+   "value_mult": 1.2,
+   "time_mult": 1.0,
+   "effects": {
+    "noise_aggro": 1.6
+   }
+  },
+  {
+   "id": "premium",
+   "name": "Premium Customer",
+   "desc": "Property damage penalties are significantly higher.",
+   "value_mult": 1.35,
+   "time_mult": 1.05,
+   "effects": {
+    "damage_penalty": 2.2
+   }
+  },
+  {
+   "id": "uninsured",
+   "name": "Uninsured Crew",
+   "desc": "Equipment damage is deducted from crew earnings.",
+   "value_mult": 1.15,
+   "time_mult": 1.0,
+   "effects": {
+    "equip_penalty": 1
+   }
+  },
+  {
+   "id": "inspection",
+   "name": "Company Inspection",
+   "desc": "A supervisor is watching. Employee performance is judged harshly.",
+   "value_mult": 1.4,
+   "time_mult": 1.0,
+   "effects": {
+    "inspection": 1
+   }
+  },
+  {
+   "id": "one_last",
+   "name": "One Last Item",
+   "desc": "An additional valuable object has been added to the contract mid-move.",
+   "value_mult": 1.3,
+   "time_mult": 1.1,
+   "effects": {
+    "extra_item": 1
+   }
+  }
+ ]
+}

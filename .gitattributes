@@ -1,0 +1,21 @@
+* text=auto eol=lf
+
+# Binary assets: never normalise line endings or diff them as text.
+*.png binary
+*.jpg binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.ttf binary
+*.otf binary
+*.res binary
+*.scn binary
+*.pck binary
+
+# Godot scene/script text files
+*.tscn text
+*.tres text
+*.gd text
+*.godot text
+*.cfg text
+*.json text

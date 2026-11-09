@@ -1,0 +1,33 @@
+{
+  "_schema": "Equipment the crew buys with company credits. Effects are read by the player/furniture systems.",
+  "upgrades": [
+    { "id": "gloves_basic", "name": "Standard Issue Gloves", "category": "equipment", "cost": 0, "desc": "The gloves you were issued. Possibly reused.", "effects": { "strength": 1.0, "grip": 1.0 } },
+    { "id": "gloves_grip", "name": "Grip-Master Gloves", "category": "equipment", "cost": 450, "desc": "Extra friction. Fewer drops. Management calls this a 'safety investment'.", "effects": { "strength": 1.25, "grip": 1.35, "grip_loss_reduction": 0.3 } },
+    { "id": "gloves_pro", "name": "Industrial Lifting Gloves", "category": "equipment", "cost": 1400, "desc": "So heavy that carrying things almost feels intentional.", "effects": { "strength": 1.6, "grip": 1.7, "grip_loss_reduction": 0.5 } },
+    { "id": "straps", "name": "Lifting Straps", "category": "equipment", "cost": 700, "desc": "Distributes weight to the shoulders. Lets one mover handle two-person furniture, badly.", "effects": { "solo_large": 1, "strength": 1.15 } },
+    { "id": "dolly", "name": "Furniture Dolly", "category": "equipment", "cost": 900, "desc": "Four wheels, questionable brakes. Takes the weight off, adds the noise.", "effects": { "drag_speed": 1.4, "carry_multiplier": 1.3 } },
+    { "id": "flashlight", "name": "Company Flashlight", "category": "equipment", "cost": 250, "desc": "Battery life not guaranteed. Neither is the bulb.", "effects": { "flashlight": 1 } },
+    { "id": "helmet", "name": "Safety Helmet", "category": "equipment", "cost": 380, "desc": "Reduces head injuries. Does nothing about the ceiling.", "effects": { "injury_resist": 0.35 } },
+    { "id": "ramp", "name": "Portable Ramp", "category": "equipment", "cost": 1100, "desc": "Solves stairs. Creates new problems with speed.", "effects": { "ramp": 1 } },
+    { "id": "detector", "name": "Object Detector", "category": "equipment", "cost": 1600, "desc": "Beeps near contracted items. Screams near the other kind.", "effects": { "detector": 1 } },
+    { "id": "medkit", "name": "Field Medkit", "category": "equipment", "cost": 620, "desc": "One use. Contains bandages and a strongly worded form.", "effects": { "heal": 1 } },
+    { "id": "truck_capacity", "name": "Extended Cargo Bay", "category": "truck", "cost": 1250, "desc": "More room between the rust and the doors.", "effects": { "truck_capacity": 4 } },
+    { "id": "truck_light", "name": "Cargo Floodlights", "category": "truck", "cost": 500, "desc": "Landing lights for the loading bay.", "effects": { "truck_light": 1 } },
+    { "id": "truck_organize", "name": "Cargo Straps", "category": "truck", "cost": 780, "desc": "Loaded furniture stops changing position on the drive home.", "effects": { "truck_stable": 1 } },
+    { "id": "truck_suspension", "name": "Heavy Suspension", "category": "truck", "cost": 950, "desc": "Damage on loading drops reduced.", "effects": { "truck_damage_resist": 0.4 } },
+    { "id": "paint_company", "name": "Company Paint Job", "category": "cosmetic", "cost": 300, "desc": "Refreshes the LAST MOVE branding on the truck.", "effects": { "truck_skin": 1 } },
+    { "id": "paint_rust", "name": "Rust Patina", "category": "cosmetic", "cost": 0, "desc": "The truck came this way. It is 'vintage'.", "effects": { "truck_skin": 0 } }
+  ],
+  "cosmetics": [
+    { "id": "uni_standard", "slot": "uniform", "name": "Standard Coveralls", "cost": 0, "color": "#2f4f6b" },
+    { "id": "uni_green", "slot": "uniform", "name": "Faded Green Coveralls", "cost": 120, "color": "#3f5c3a" },
+    { "id": "uni_orange", "slot": "uniform", "name": "High-Vis Coveralls", "cost": 200, "color": "#b4622a" },
+    { "id": "uni_black", "slot": "uniform", "name": "Management Black", "cost": 350, "color": "#2a2a30" },
+    { "id": "hat_none", "slot": "hat", "name": "No Hat", "cost": 0, "color": "#000000" },
+    { "id": "hat_cap", "slot": "hat", "name": "Company Cap", "cost": 90, "color": "#2f4f6b" },
+    { "id": "hat_beanie", "slot": "hat", "name": "Night Shift Beanie", "cost": 140, "color": "#6b3a3a" },
+    { "id": "hat_hardhat", "slot": "hat", "name": "Hard Hat", "cost": 260, "color": "#d0a02a" },
+    { "id": "glove_color", "slot": "gloves", "name": "Coloured Gloves", "cost": 70, "color": "#c8b04a" },
+    { "id": "boots_steel", "slot": "boots", "name": "Steel Toe Boots", "cost": 150, "color": "#3a2e22" }
+  ]
+}

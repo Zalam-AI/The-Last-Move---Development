@@ -1,0 +1,359 @@
+{
+ "ambience": {
+  "endless_hum": [
+   "res://assets/audio/ambience/endless_hum.ogg"
+  ],
+  "hotel_hum": [
+   "res://assets/audio/ambience/hotel_hum.ogg"
+  ],
+  "hq_lobby": [
+   "res://assets/audio/ambience/hq_lobby.ogg"
+  ],
+  "indoor_house": [
+   "res://assets/audio/ambience/indoor_house.ogg"
+  ],
+  "last_customer": [
+   "res://assets/audio/ambience/last_customer.ogg"
+  ],
+  "mansion_creak": [
+   "res://assets/audio/ambience/mansion_creak.ogg"
+  ],
+  "mansion_quiet": [
+   "res://assets/audio/ambience/mansion_quiet.ogg"
+  ],
+  "organic_breathe": [
+   "res://assets/audio/ambience/organic_breathe.ogg"
+  ],
+  "suburb_night": [
+   "res://assets/audio/ambience/suburb_night.ogg"
+  ],
+  "water_ambience": [
+   "res://assets/audio/ambience/water_ambience.ogg"
+  ]
+ },
+ "music": {
+  "escape": [
+   "res://assets/audio/music/escape.ogg"
+  ],
+  "hq_lobby": [
+   "res://assets/audio/music/hq_lobby.ogg"
+  ],
+  "menu_corporate": [
+   "res://assets/audio/music/menu_corporate.ogg"
+  ],
+  "prop_calm": [
+   "res://assets/audio/music/prop_calm.ogg"
+  ],
+  "prop_dread": [
+   "res://assets/audio/music/prop_dread.ogg"
+  ],
+  "prop_tension": [
+   "res://assets/audio/music/prop_tension.ogg"
+  ],
+  "prop_uneasy": [
+   "res://assets/audio/music/prop_uneasy.ogg"
+  ],
+  "result_sting": [
+   "res://assets/audio/music/result_sting.ogg"
+  ]
+ },
+ "sfx": {
+  "break_ceramic": [
+   "res://assets/audio/sfx/break_ceramic_01.wav",
+   "res://assets/audio/sfx/break_ceramic_02.wav"
+  ],
+  "break_glass": [
+   "res://assets/audio/sfx/break_glass_01.wav",
+   "res://assets/audio/sfx/break_glass_02.wav"
+  ],
+  "break_metal": [
+   "res://assets/audio/sfx/break_metal_01.wav",
+   "res://assets/audio/sfx/break_metal_02.wav"
+  ],
+  "break_wood": [
+   "res://assets/audio/sfx/break_wood_01.wav",
+   "res://assets/audio/sfx/break_wood_02.wav",
+   "res://assets/audio/sfx/break_wood_03.wav"
+  ],
+  "click": [
+   "res://assets/audio/sfx/click.wav"
+  ],
+  "click_denied": [
+   "res://assets/audio/sfx/click_denied.wav"
+  ],
+  "creature_breath": [
+   "res://assets/audio/sfx/creature_breath.wav"
+  ],
+  "creature_growl": [
+   "res://assets/audio/sfx/creature_growl.wav"
+  ],
+  "creature_shriek": [
+   "res://assets/audio/sfx/creature_shriek.wav"
+  ],
+  "creature_steps": [
+   "res://assets/audio/sfx/creature_steps.wav"
+  ],
+  "doll_drop": [
+   "res://assets/audio/sfx/doll_drop.wav"
+  ],
+  "doll_move": [
+   "res://assets/audio/sfx/doll_move.wav"
+  ],
+  "door_close": [
+   "res://assets/audio/sfx/door_close_01.wav",
+   "res://assets/audio/sfx/door_close_02.wav"
+  ],
+  "door_locked": [
+   "res://assets/audio/sfx/door_locked_01.wav",
+   "res://assets/audio/sfx/door_locked_02.wav"
+  ],
+  "door_open": [
+   "res://assets/audio/sfx/door_open_01.wav",
+   "res://assets/audio/sfx/door_open_02.wav"
+  ],
+  "door_slam": [
+   "res://assets/audio/sfx/door_slam_01.wav",
+   "res://assets/audio/sfx/door_slam_02.wav"
+  ],
+  "elevator": [
+   "res://assets/audio/sfx/elevator.wav"
+  ],
+  "emote": [
+   "res://assets/audio/sfx/emote.wav"
+  ],
+  "foot_crouch": [
+   "res://assets/audio/sfx/foot_crouch_01.wav",
+   "res://assets/audio/sfx/foot_crouch_02.wav",
+   "res://assets/audio/sfx/foot_crouch_03.wav"
+  ],
+  "foot_run": [
+   "res://assets/audio/sfx/foot_run_01.wav",
+   "res://assets/audio/sfx/foot_run_02.wav",
+   "res://assets/audio/sfx/foot_run_03.wav"
+  ],
+  "foot_step": [
+   "res://assets/audio/sfx/foot_step_01.wav",
+   "res://assets/audio/sfx/foot_step_02.wav",
+   "res://assets/audio/sfx/foot_step_03.wav"
+  ],
+  "grab": [
+   "res://assets/audio/sfx/grab.wav"
+  ],
+  "heartbeat": [
+   "res://assets/audio/sfx/heartbeat.wav"
+  ],
+  "hotel_knock": [
+   "res://assets/audio/sfx/hotel_knock.wav"
+  ],
+  "house_creak": [
+   "res://assets/audio/sfx/house_creak_01.wav",
+   "res://assets/audio/sfx/house_creak_02.wav",
+   "res://assets/audio/sfx/house_creak_03.wav"
+  ],
+  "house_react": [
+   "res://assets/audio/sfx/house_react_01.wav",
+   "res://assets/audio/sfx/house_react_02.wav",
+   "res://assets/audio/sfx/house_react_03.wav"
+  ],
+  "imp_ceramic": [
+   "res://assets/audio/sfx/imp_ceramic_01.wav",
+   "res://assets/audio/sfx/imp_ceramic_02.wav",
+   "res://assets/audio/sfx/imp_ceramic_03.wav"
+  ],
+  "imp_default": [
+   "res://assets/audio/sfx/imp_default_01.wav",
+   "res://assets/audio/sfx/imp_default_02.wav",
+   "res://assets/audio/sfx/imp_default_03.wav"
+  ],
+  "imp_electronics": [
+   "res://assets/audio/sfx/imp_electronics_01.wav",
+   "res://assets/audio/sfx/imp_electronics_02.wav",
+   "res://assets/audio/sfx/imp_electronics_03.wav"
+  ],
+  "imp_fabric": [
+   "res://assets/audio/sfx/imp_fabric_01.wav",
+   "res://assets/audio/sfx/imp_fabric_02.wav",
+   "res://assets/audio/sfx/imp_fabric_03.wav"
+  ],
+  "imp_glass": [
+   "res://assets/audio/sfx/imp_glass_01.wav",
+   "res://assets/audio/sfx/imp_glass_02.wav",
+   "res://assets/audio/sfx/imp_glass_03.wav"
+  ],
+  "imp_metal": [
+   "res://assets/audio/sfx/imp_metal_01.wav",
+   "res://assets/audio/sfx/imp_metal_02.wav",
+   "res://assets/audio/sfx/imp_metal_03.wav"
+  ],
+  "imp_paper": [
+   "res://assets/audio/sfx/imp_paper_01.wav",
+   "res://assets/audio/sfx/imp_paper_02.wav",
+   "res://assets/audio/sfx/imp_paper_03.wav"
+  ],
+  "imp_wood": [
+   "res://assets/audio/sfx/imp_wood_01.wav",
+   "res://assets/audio/sfx/imp_wood_02.wav",
+   "res://assets/audio/sfx/imp_wood_03.wav"
+  ],
+  "light_buzz": [
+   "res://assets/audio/sfx/light_buzz_01.wav",
+   "res://assets/audio/sfx/light_buzz_02.wav",
+   "res://assets/audio/sfx/light_buzz_03.wav"
+  ],
+  "paper": [
+   "res://assets/audio/sfx/paper.wav"
+  ],
+  "player_hurt": [
+   "res://assets/audio/sfx/player_hurt.wav"
+  ],
+  "player_jump": [
+   "res://assets/audio/sfx/player_jump.wav"
+  ],
+  "player_land": [
+   "res://assets/audio/sfx/player_land.wav"
+  ],
+  "portal": [
+   "res://assets/audio/sfx/portal.wav"
+  ],
+  "purchase": [
+   "res://assets/audio/sfx/purchase.wav"
+  ],
+  "radio_static": [
+   "res://assets/audio/sfx/radio_static_01.wav",
+   "res://assets/audio/sfx/radio_static_02.wav",
+   "res://assets/audio/sfx/radio_static_03.wav"
+  ],
+  "revive": [
+   "res://assets/audio/sfx/revive.wav"
+  ],
+  "scrape_default": [
+   "res://assets/audio/sfx/scrape_default_01.wav",
+   "res://assets/audio/sfx/scrape_default_02.wav",
+   "res://assets/audio/sfx/scrape_default_03.wav"
+  ],
+  "scrape_fabric": [
+   "res://assets/audio/sfx/scrape_fabric_01.wav",
+   "res://assets/audio/sfx/scrape_fabric_02.wav",
+   "res://assets/audio/sfx/scrape_fabric_03.wav"
+  ],
+  "scrape_metal": [
+   "res://assets/audio/sfx/scrape_metal_01.wav",
+   "res://assets/audio/sfx/scrape_metal_02.wav",
+   "res://assets/audio/sfx/scrape_metal_03.wav"
+  ],
+  "scrape_wood": [
+   "res://assets/audio/sfx/scrape_wood_01.wav",
+   "res://assets/audio/sfx/scrape_wood_02.wav",
+   "res://assets/audio/sfx/scrape_wood_03.wav"
+  ],
+  "truck_door": [
+   "res://assets/audio/sfx/truck_door.wav"
+  ],
+  "truck_load": [
+   "res://assets/audio/sfx/truck_load.wav"
+  ],
+  "ui_click": [
+   "res://assets/audio/sfx/ui_click.wav"
+  ],
+  "vending": [
+   "res://assets/audio/sfx/vending.wav"
+  ],
+  "water_surge": [
+   "res://assets/audio/sfx/water_surge.wav"
+  ],
+  "whisper": [
+   "res://assets/audio/sfx/whisper_01.wav",
+   "res://assets/audio/sfx/whisper_02.wav",
+   "res://assets/audio/sfx/whisper_03.wav"
+  ]
+ },
+ "voice": {
+  "announcement_01": [
+   "res://assets/audio/voice/announcement_01.ogg"
+  ],
+  "announcement_02": [
+   "res://assets/audio/voice/announcement_02.ogg"
+  ],
+  "announcement_03": [
+   "res://assets/audio/voice/announcement_03.ogg"
+  ],
+  "announcement_04": [
+   "res://assets/audio/voice/announcement_04.ogg"
+  ],
+  "announcement_05": [
+   "res://assets/audio/voice/announcement_05.ogg"
+  ],
+  "announcement_06": [
+   "res://assets/audio/voice/announcement_06.ogg"
+  ],
+  "announcement_07": [
+   "res://assets/audio/voice/announcement_07.ogg"
+  ],
+  "announcement_08": [
+   "res://assets/audio/voice/announcement_08.ogg"
+  ],
+  "announcement_09": [
+   "res://assets/audio/voice/announcement_09.ogg"
+  ],
+  "announcement_10": [
+   "res://assets/audio/voice/announcement_10.ogg"
+  ],
+  "announcement_11": [
+   "res://assets/audio/voice/announcement_11.ogg"
+  ],
+  "announcement_12": [
+   "res://assets/audio/voice/announcement_12.ogg"
+  ],
+  "announcement_13": [
+   "res://assets/audio/voice/announcement_13.ogg"
+  ],
+  "announcement_14": [
+   "res://assets/audio/voice/announcement_14.ogg"
+  ],
+  "announcement_15": [
+   "res://assets/audio/voice/announcement_15.ogg"
+  ],
+  "announcement_16": [
+   "res://assets/audio/voice/announcement_16.ogg"
+  ],
+  "announcement_17": [
+   "res://assets/audio/voice/announcement_17.ogg"
+  ],
+  "announcement_18": [
+   "res://assets/audio/voice/announcement_18.ogg"
+  ],
+  "announcement_19": [
+   "res://assets/audio/voice/announcement_19.ogg"
+  ],
+  "announcement_20": [
+   "res://assets/audio/voice/announcement_20.ogg"
+  ],
+  "announcement_21": [
+   "res://assets/audio/voice/announcement_21.ogg"
+  ],
+  "announcement_22": [
+   "res://assets/audio/voice/announcement_22.ogg"
+  ],
+  "announcement_23": [
+   "res://assets/audio/voice/announcement_23.ogg"
+  ],
+  "announcement_24": [
+   "res://assets/audio/voice/announcement_24.ogg"
+  ],
+  "announcement_25": [
+   "res://assets/audio/voice/announcement_25.ogg"
+  ],
+  "training_01": [
+   "res://assets/audio/voice/training_01.ogg"
+  ],
+  "training_02": [
+   "res://assets/audio/voice/training_02.ogg"
+  ],
+  "training_03": [
+   "res://assets/audio/voice/training_03.ogg"
+  ],
+  "training_04": [
+   "res://assets/audio/voice/training_04.ogg"
+  ]
+ }
+}

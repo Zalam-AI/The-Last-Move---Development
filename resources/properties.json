@@ -1,0 +1,180 @@
+{
+  "properties": [
+    {
+      "id": "willow",
+      "index": 1,
+      "code": "PROPERTY 01",
+      "title": "The Willow Residence",
+      "subtitle": "12 Willow Lane. Family of four. Recently decreased to three.",
+      "difficulty": "Easy",
+      "difficulty_rank": 1,
+      "deadline": 780,
+      "base_pay": 900,
+      "layout": "res://scripts/levels/level_willow.gd",
+      "ambience": "suburb_night",
+      "music": "prop_calm",
+      "environment": "suburb_night",
+      "briefing": "Standard residential relocation. Family has already vacated. Do not discuss the family with the family.",
+      "notes": [
+        "CUSTOMER REQUESTS: nothing that 'looks at them' is to be loaded.",
+        "NOTE FROM DISPATCH: the previous crew quit at 03:40. Their van is still in the driveway. Ignore the van.",
+        "REMINDER: the garage door does not open. Do not attempt to open the garage door."
+      ],
+      "modifier_pool": ["fragile", "rush", "night_shift"]
+    },
+    {
+      "id": "endless",
+      "index": 2,
+      "code": "PROPERTY 02",
+      "title": "The Endless House",
+      "subtitle": "No fixed address. No fixed floor plan.",
+      "difficulty": "Medium",
+      "difficulty_rank": 2,
+      "deadline": 1020,
+      "base_pay": 1450,
+      "layout": "res://scripts/levels/level_endless.gd",
+      "ambience": "endless_hum",
+      "music": "prop_uneasy",
+      "environment": "indoor_night",
+      "briefing": "The house has more rooms than the deed allows. Map accordingly. Do not trust the map.",
+      "notes": [
+        "PRIOR CREW REPORT: 'the corridor was on the left'. Corridor is not on the left.",
+        "NOTE FROM DISPATCH: if a door leads to the room you just left, it is still the same door.",
+        "DO NOT prop doors open. The house takes this personally."
+      ],
+      "modifier_pool": ["fragile", "rush", "noisy", "inspection"]
+    },
+    {
+      "id": "dollhouse",
+      "index": 3,
+      "code": "PROPERTY 03",
+      "title": "The Dollhouse",
+      "subtitle": "Ashgrove Manor. Collection of 411 dolls. 412 at last count.",
+      "difficulty": "Medium",
+      "difficulty_rank": 3,
+      "deadline": 1140,
+      "base_pay": 1800,
+      "layout": "res://scripts/levels/level_dollhouse.gd",
+      "ambience": "mansion_creak",
+      "music": "prop_uneasy",
+      "environment": "indoor_night",
+      "briefing": "Contents include a porcelain collection of significant value. The collection is insured. You are not.",
+      "notes": [
+        "CUSTOMER REQUESTS: keep the parlour dolls facing the window.",
+        "NOTE FROM DISPATCH: if a doll is warm, log it on form 12-B.",
+        "REMINDER: do not count the dolls out loud."
+      ],
+      "modifier_pool": ["fragile", "noisy", "premium", "one_last"]
+    },
+    {
+      "id": "sinking",
+      "index": 4,
+      "code": "PROPERTY 04",
+      "title": "The Sinking House",
+      "subtitle": "14 Harbour Row. Water level: rising. Insurance: expired.",
+      "difficulty": "Hard",
+      "difficulty_rank": 4,
+      "deadline": 1260,
+      "base_pay": 2450,
+      "layout": "res://scripts/levels/level_sinking.gd",
+      "ambience": "water_ambience",
+      "music": "prop_tension",
+      "environment": "coastal_night",
+      "briefing": "Coastal property, partial flooding. The tide is not expected. The water is not tidal.",
+      "notes": [
+        "PRIOR CREW REPORT: 'we lost the fridge to the hallway'.",
+        "NOTE FROM DISPATCH: electrical hazards are considered an employee responsibility.",
+        "REMINDER: floating furniture is still contracted furniture."
+      ],
+      "modifier_pool": ["rush", "night_shift", "uninsured", "premium"]
+    },
+    {
+      "id": "perfect",
+      "index": 5,
+      "code": "PROPERTY 05",
+      "title": "The Perfect Home",
+      "subtitle": "One occupant. No occupant. Please clarify at reception.",
+      "difficulty": "Hard",
+      "difficulty_rank": 5,
+      "deadline": 1200,
+      "base_pay": 3100,
+      "layout": "res://scripts/levels/level_perfect.gd",
+      "ambience": "mansion_quiet",
+      "music": "prop_tension",
+      "environment": "indoor_luxury",
+      "briefing": "A premium property. Presentation is part of the contract. Scratches, smudges and disorder will be invoiced.",
+      "notes": [
+        "CUSTOMER REQUESTS: do not drag anything. Do not lean on anything. Do not breathe on the wallpaper.",
+        "NOTE FROM DISPATCH: the house has an opinion about arrangement.",
+        "REMINDER: if the room corrects itself, do not correct it back."
+      ],
+      "modifier_pool": ["premium", "inspection", "fragile", "one_last"]
+    },
+    {
+      "id": "hotel",
+      "index": 6,
+      "code": "PROPERTY 06",
+      "title": "The Abandoned Hotel",
+      "subtitle": "The Grand Meridian. Closed 1974. Still checking guests in.",
+      "difficulty": "Very Hard",
+      "difficulty_rank": 6,
+      "deadline": 1440,
+      "base_pay": 3900,
+      "layout": "res://scripts/levels/level_hotel.gd",
+      "ambience": "hotel_hum",
+      "music": "prop_tension",
+      "environment": "indoor_night",
+      "briefing": "Six floors, one working elevator, no working elevator. Retrieve contracted items from floors 1 through 3.",
+      "notes": [
+        "PRIOR CREW REPORT: 'room 214 is room 214. room 214 is also room 412'.",
+        "NOTE FROM DISPATCH: guests are not to be disturbed. Guests are not on the inventory.",
+        "REMINDER: bell carts are company property, not a ride."
+      ],
+      "modifier_pool": ["night_shift", "rush", "noisy", "uninsured", "one_last"]
+    },
+    {
+      "id": "breathing",
+      "index": 7,
+      "code": "PROPERTY 07",
+      "title": "The House That Breathes",
+      "subtitle": "Structural classification: biological. Please do not feed the property.",
+      "difficulty": "Very Hard",
+      "difficulty_rank": 7,
+      "deadline": 1500,
+      "base_pay": 4700,
+      "layout": "res://scripts/levels/level_breathing.gd",
+      "ambience": "organic_breathe",
+      "music": "prop_dread",
+      "environment": "organic_night",
+      "briefing": "Interior surfaces are not load-bearing in the conventional sense. Noise is discouraged. Movement is discouraged. The contract is not.",
+      "notes": [
+        "PRIOR CREW REPORT: 'the walls moved'. Walls corroborate.",
+        "NOTE FROM DISPATCH: do not remove anything that appears to be an organ.",
+        "REMINDER: if the floor inhales, wait. If the floor exhales, leave."
+      ],
+      "modifier_pool": ["noisy", "inspection", "uninsured", "fragile"]
+    },
+    {
+      "id": "last_customer",
+      "index": 8,
+      "code": "PROPERTY 08",
+      "title": "The Last Customer",
+      "subtitle": "Address withheld. Customer has been waiting a long time.",
+      "difficulty": "Extreme",
+      "difficulty_rank": 8,
+      "deadline": 1740,
+      "base_pay": 12000,
+      "layout": "res://scripts/levels/level_last_customer.gd",
+      "ambience": "last_customer",
+      "music": "prop_dread",
+      "environment": "last_customer",
+      "briefing": "Final contract before quarterly review. Recover the crate. Recover everything else if convenient. Do not open the crate.",
+      "notes": [
+        "CUSTOMER REQUESTS: the crate. That is the whole request.",
+        "NOTE FROM DISPATCH: this address has been in our files since before the company existed.",
+        "REMINDER: you were not told to open the crate."
+      ],
+      "modifier_pool": ["premium", "noisy", "inspection", "one_last"]
+    }
+  ]
+}

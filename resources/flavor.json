@@ -1,0 +1,234 @@
+{
+  "announcements": [
+    "Reminder: broken furniture will be deducted from your monthly salary.",
+    "Management would like to remind all employees that supernatural incidents are not considered valid reasons for missing a deadline.",
+    "Your current employee replacement request has been denied.",
+    "Please remember to clock out before entering any property. Clocking in is optional.",
+    "All crew members are reminded that the company van is not insured for 'acts of house'.",
+    "Congratulations to Mover of the Month, who has been missing since Tuesday.",
+    "The break room microwave is not a ritual object. Please stop using it as one.",
+    "Employees experiencing a sense of dread should report to Human Resources. Human Resources is on floor nine. There is no floor nine.",
+    "Reminder: safety equipment is available on request. Requests are not available.",
+    "Unloading the truck is a team activity. One employee doing everything is a legal grey area.",
+    "Form 12-B remains mandatory for all supernatural incidents. Writing on the form with a shaking hand is acceptable.",
+    "The company would like to thank all employees for their continued service. We know what you did.",
+    "Attention: the loading bay floods every evening at seven. This is not a maintenance issue.",
+    "Per policy 44.2, an employee may not be declared deceased until their final timesheet is submitted.",
+    "Employees are encouraged to take breaks. Break requests must be submitted in triplicate before the break.",
+    "Reminder: do not feed the property. Do not name the property. Do not apologise to the property.",
+    "The overtime bonus scheme has been revised. There is no overtime bonus scheme.",
+    "All vans must be returned with a full tank of fuel and the same number of doors.",
+    "Congratulations: this month marks ten years of zero workplace fatality filings. This is not the same as zero fatalities.",
+    "Management reminds you that curiosity is not a core competency.",
+    "The suggestion box has been removed for the safety of the suggestions.",
+    "Please do not discuss the basement over the radio. The basement has ears.",
+    "Night shifts are the same length as day shifts. They only feel longer because of the screaming.",
+    "Your family has been notified of your current assignment. Your family has questions.",
+    "Reminder: any object that whispers must be loaded last, and packaged separately."
+  ],
+  "report": {
+    "open_good": [
+      "Congratulations! Your crew recovered {recovered} of {required} contracted assets and made it back with most of the crew.",
+      "Satisfactory performance. {recovered} of {required} contracted assets were secured without significant litigation.",
+      "Well done. The contract was completed and the paperwork is only mostly fictional."
+    ],
+    "open_mid": [
+      "Partial success. {recovered} of {required} contracted assets were recovered. This has been noted in your file.",
+      "{recovered} of {required} contracted assets were recovered. The customer has been informed. The customer was heard crying.",
+      "Your crew brought back {recovered} of {required} contracted assets. The rest are now part of the property's decor."
+    ],
+    "open_bad": [
+      "Performance review triggered. Your crew recovered {recovered} of {required} contracted assets, which our records describe as 'a start'.",
+      "{recovered} of {required} contracted assets were recovered. Management has used the word 'unfortunate' four times in this memo.",
+      "We regret to inform you that {recovered} of {required} contracted assets were recovered and the remaining ones are listed as 'elsewhere'."
+    ],
+    "body_lines_damage": [
+      "Unfortunately, you destroyed the front door, damaged the staircase and left a hole where a hole should not be.",
+      "Property damage of {damage} has been recorded. The house has filed a complaint. The house has legal standing.",
+      "You scratched the floorboards in a way the customer has described as 'deliberate'.",
+      "Three walls were moved. Two were not moved by you.",
+      "The loading bay door was removed. It has been removed from your bonus."
+    ],
+    "body_lines_crew": [
+      "Your crew returned with an unidentified organism and one fewer shoelace.",
+      "Mover {missing} is listed as 'unaccounted for'. Please return their locker contents.",
+      "Nobody was left behind. Mostly. Legally.",
+      "One member of the crew was heard by a neighbour on the property's second floor. You have agreed to stop mentioning it.",
+      "The crew survived. The crew's dignity did not."
+    ],
+    "body_lines_time": [
+      "Your time of {time} was recorded. It was not fast. It was not slow. It was concerning.",
+      "You left the property with {remaining} remaining on the deadline. Management had already begun the paperwork.",
+      "You beat the deadline with {remaining} to spare. Someone would like a word about why it took that long."
+    ],
+    "close": [
+      "Your performance bonus has been reduced by {penalty}%.",
+      "Please remember that employee safety is not covered by our insurance policy.",
+      "Thank you for choosing LAST MOVE INCORPORATED. You did not choose us.",
+      "This report has been generated automatically and is therefore binding.",
+      "A copy of this report has been placed in your file. Your file is not available on request.",
+      "Management wishes you a productive next shift. Management is aware of what shift that is."
+    ]
+  },
+  "contract_random_notes": [
+    "NOTE: the item marked 'do not touch' is to be touched last.",
+    "NOTE: previous crew listed this item as 'noun (suspicious)'.",
+    "NOTE: item is heavier than the paperwork states. The paperwork is from 1968.",
+    "NOTE: if the item is warm, load it facing the wall.",
+    "NOTE: the customer's estate requests that you do not use the item. It is a table.",
+    "NOTE: item has been relocated by the property twice. It will be relocated a third time.",
+    "NOTE: this item was on the previous contract. No previous crew exists for this contract."
+  ],
+  "tips": [
+    "Two movers can carry more than one. Usually.",
+    "Q and R rotate a held object. Doorways require this knowledge.",
+    "Throwing is faster than carrying. Throwing is more expensive than carrying.",
+    "The truck accepts items that are fully inside the cargo bay. Walls do not count as inside.",
+    "Contract items glow faintly. Optional items glow more faintly. Danger does not glow.",
+    "You can drop an object with G. You cannot drop it from a great height for free.",
+    "A dolly makes everything lighter and everything louder.",
+    "If a house starts rearranging itself, mark your route. Verbally. With words.",
+    "Movement makes noise. Noise makes interest. Interest makes things happen.",
+    "If the deadline runs out you can still escape. You cannot still get paid."
+  ],
+  "achievements": [
+    {
+      "id": "first_day",
+      "name": "First Day on the Job",
+      "desc": "Complete your first contract. Welcome to the company."
+    },
+    {
+      "id": "employee_month",
+      "name": "Employee of the Month",
+      "desc": "Finish a contract with every required item and zero damage."
+    },
+    {
+      "id": "occupational_hazard",
+      "name": "Occupational Hazard",
+      "desc": "Be incapacitated and be revived by a teammate."
+    },
+    {
+      "id": "not_in_contract",
+      "name": "That's Not in the Contract",
+      "desc": "Load an object that was never on any contract."
+    },
+    {
+      "id": "perfect_delivery",
+      "name": "Perfect Delivery",
+      "desc": "Deliver a full contract with more than a minute remaining."
+    },
+    {
+      "id": "damage_specialist",
+      "name": "Property Damage Specialist",
+      "desc": "Cause $2,000 of property damage in one contract."
+    },
+    {
+      "id": "four_hands",
+      "name": "Four Hands, One Sofa",
+      "desc": "Carry the same object with four players at once."
+    },
+    {
+      "id": "nobody_left",
+      "name": "Nobody Left Behind",
+      "desc": "Extract with all contracted items and all crew alive."
+    },
+    {
+      "id": "not_insured",
+      "name": "We Are Not Insured",
+      "desc": "Lose an entire truck load of contracted furniture."
+    },
+    {
+      "id": "last_customer",
+      "name": "The Last Customer",
+      "desc": "Finish the final contract. You may want to read it again."
+    },
+    {
+      "id": "campaign_complete",
+      "name": "Ten Out Of Ten",
+      "desc": "Finish the final contract. The company has no further comment."
+    }
+  ],
+  "story": [
+    {
+      "title": "MEMO 01 \u2014 WELCOME TO THE COMPANY",
+      "text": "Your crew has been approved for field duty. Please note that field duty is not covered by the employee handbook, which was never printed. Welcome."
+    },
+    {
+      "title": "MEMO 02 \u2014 ON PROPERTY IRREGULARITIES",
+      "text": "Employees are reminded that rooms which should not exist are still the customer's rooms. Do not photograph them. Do not draw them. Do not describe them to colleagues."
+    },
+    {
+      "title": "MEMO 03 \u2014 ON THE COLLECTION",
+      "text": "Certain recovered items are not for resale. They are for collection. You are not to ask who is collecting them. The answer is 'the company'."
+    },
+    {
+      "title": "MEMO 04 \u2014 ON THE PREVIOUS CREWS",
+      "text": "The company has dispatched nine crews to these addresses. You are crew ten. Please disregard the personnel files of crews one through nine, particularly the section titled 'Outcome'."
+    },
+    {
+      "title": "MEMO 05 \u2014 ON THE PERFECT HOME",
+      "text": "If the property begins to tidy itself, that is the property's business. If the property begins to tidy you, that is your business."
+    },
+    {
+      "title": "MEMO 06 \u2014 ON THE MERIDIAN",
+      "text": "The hotel is closed. The hotel is also fully booked. Both statements are company policy. Please do not ask which is true."
+    },
+    {
+      "title": "MEMO 07 \u2014 ON THE HOUSE THAT BREATHES",
+      "text": "This property has been on our books longer than the company has existed. Our records indicate that we have always had this contract."
+    },
+    {
+      "title": "MEMO 08 \u2014 ON THE FINAL CUSTOMER",
+      "text": "The crate is not a piece of furniture. The crate is a delivery. You are the delivery service. You have always been the delivery service."
+    }
+  ],
+  "emails": [
+    {
+      "subject": "Re: Re: Re: Bolt won't hold (payroll)",
+      "body": "Hi P, the bolt is not load-bearing. Please stop using it. \u2014 D (Payroll)"
+    },
+    {
+      "subject": "Locker 14",
+      "body": "The person using locker 14 has been reassigned. Please do not use locker 14. Please do not open locker 14."
+    },
+    {
+      "subject": "Quarterly targets",
+      "body": "Crews are expected to recover 95% of contracted assets this quarter. Crews are expected to return. These targets are unrelated."
+    },
+    {
+      "subject": "PROPERTY 08",
+      "body": "Do not read this email. If you have read this email, please report to reception. Reception is not currently staffed."
+    },
+    {
+      "subject": "insurance",
+      "body": "The company does not hold insurance. The words 'we are insured' appear in this year's employee handbook, which does not exist. Please do not mention this at reception."
+    },
+    {
+      "subject": "the van",
+      "body": "The van from Willow Lane has been recovered. The previous crew has not."
+    }
+  ],
+  "ending": {
+    "success": {
+      "title": "THE CUSTOMER IS SATISFIED",
+      "body": [
+        "The crate goes into the truck the way every piece of furniture has gone into the truck: badly, at an angle, with two people swearing and one person holding the door.",
+        "You close the doors. The house behind you stops breathing. The rotunda settles into an ordinary circular room with an ordinary number of doors, and the house that was waiting stops waiting, because there is nothing left to wait for.",
+        "In the cab, the radio hisses. Dispatch does not say well done. Dispatch says: 'Crew ten, you are clear for the next address.'",
+        "There is no next address. There never was. There was only ever this one, and you were always going to be the ones who moved it.",
+        "The engine turns over. The road home is short, and it is the first road in a long time with nothing standing on it."
+      ],
+      "footer": "CONTRACT COMPLETE  \u2022  THE LAST MOVE  \u2022  ALL EIGHT PROPERTIES CLEARED"
+    },
+    "partial": {
+      "title": "THE CUSTOMER IS PATIENT",
+      "body": [
+        "You got the crate out. Most of it. Enough of it.",
+        "The house lets you leave, which is worse than the alternative. As the truck pulls away you see the front door standing open and something standing in it, not waving, not following, just standing the way a thing stands when it expects you to come back.",
+        "The road home takes longer than it should.",
+        "Dispatch does not call. Dispatch never calls when there is still work to be done, and there is still work to be done."
+      ],
+      "footer": "CONTRACT CLOSED WITH RESERVATIONS  \u2022  THE LAST MOVE"
+    }
+  }
+}
